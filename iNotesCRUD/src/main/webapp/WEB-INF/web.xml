@@ -1,0 +1,37 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="3.1">
+    <servlet>
+        <servlet-name>AddNoteServlet</servlet-name>
+        <servlet-class>com.jdbcexample.AddNoteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddNoteServlet</servlet-name>
+        <url-pattern>/AddNoteServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpdateNoteServlet</servlet-name>
+        <servlet-class>com.jdbcexample.UpdateNoteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateNoteServlet</servlet-name>
+        <url-pattern>/UpdateNoteServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteNoteServlet</servlet-name>
+        <servlet-class>com.jdbcexample.DeleteNoteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteNoteServlet</servlet-name>
+        <url-pattern>/DeleteNoteServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ViewNotesServlet</servlet-name>
+        <servlet-class>com.jdbcexample.ViewNotesServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewNotesServlet</servlet-name>
+        <url-pattern>/ViewNotesServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
